@@ -32,7 +32,7 @@ describe("Testing Emoji",() =>{
       let list = screen.getByText(/grimacing/i);
       let text = "Grimacing";
       userEvent.click(list);
-
+      
       expect(list).toHaveTextContent(text);
       
      })
