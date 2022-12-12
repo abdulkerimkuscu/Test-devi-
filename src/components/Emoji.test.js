@@ -20,7 +20,7 @@ describe("Testing Emoji",() =>{
         expect(items.length).toEqual(20);
      });
 
-     test("Emoji filtering work", ()=>{
+     test("Emoji filtering is  working", ()=>{
         const emoji = "Joy";
         const input = screen.getByTitle("input");
         fireEvent.change(input, {target: {value: emoji}});
